@@ -1,0 +1,1 @@
+modulex.config("requires",{"navigation-view":["util","feature","component/container","component/control","component/extension/content-box"]});
