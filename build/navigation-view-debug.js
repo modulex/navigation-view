@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-navigation-view@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:10:16 GMT
+*/
 modulex.add("navigation-view", ["util","component/container","component/control","component/extension/content-box","feature"], function(require, exports, module) {
 var _util_ = require("util");
 var componentContainer = require("component/container");
@@ -89,6 +94,7 @@ navigationView = function (exports) {
     }
   }, {
     xclass: 'navigation-view-loading',
+    version: '1.0.1',
     ATTRS: {
       handleGestureEvents: { value: false },
       focusable: { value: false },

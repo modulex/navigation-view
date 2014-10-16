@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-navigation-view@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:10:16 GMT
+*/
 modulex.add("navigation-view/bar", ["xtemplate/runtime","component/control","button"], function(require, exports, module) {
 var xtemplateRuntime = require("xtemplate/runtime");
 var componentControl = require("component/control");
@@ -10,6 +15,7 @@ navigation-view/bar/xtpl/tpl
 */
 var navigationViewBarXtplTpl, navigationViewBarXtplTplRender, navigationViewBar;
 navigationViewBarXtplTpl = function (exports) {
+  /*compiled by xtemplate#3.3.1*/
   var ret = exports = function tpl(undefined) {
     var t;
     var t0;
