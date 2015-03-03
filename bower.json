@@ -1,28 +1,16 @@
 {
     "name": "modulex-navigation-view",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/navigation-view.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-button": "modulex-button#1.x",
-        "modulex-scroll-view": "modulex-scroll-view#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-button": "modulex/button#1.x",
+        "modulex-scroll-view": "modulex/scroll-view#1.x"
     },
     "devDependencies": {
-        "modulex-css": "modulex-css#1.x",
-        "modulex-router": "modulex-router#1.x",
-        "modulex-promise": "modulex-promise#1.x"
+        "modulex-css": "modulex/css#1.x",
+        "modulex-router": "modulex/router#1.x",
+        "modulex-promise": "modulex/promise#1.x"
     }
 }
